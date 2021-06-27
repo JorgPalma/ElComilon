@@ -242,6 +242,9 @@ aside .lista-menu li:hover::before{
 
 .container-field{
     border-bottom: 2px solid var(--main-red);
+    display:inline-block;
+    width: 90%;
+
 }
 
 .signup-tag{
@@ -275,12 +278,13 @@ aside .lista-menu li:hover::before{
 .btn1{
     background-color: rgb(13, 13, 68);
     border-radius: 50px;
-    margin: 1%;
+    margin: 6%;
     width: 47%;
     color: var(--light);
     border: none;
     text-decoration: none;
     margin-top: 40px;
+    border-width: 10px;
 }
 
 .body-login{
