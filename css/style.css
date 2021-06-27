@@ -233,8 +233,6 @@ aside .lista-menu li:hover::before{
 
 .op-container-signup-form input[type="text"]{
     border: none;
-    border-bottom: solid var(--main-red);
-    border-bottom-width: 2px;
     background: transparent;
     outline: none;
     width: 90%;
@@ -242,7 +240,11 @@ aside .lista-menu li:hover::before{
 
 }
 
-.login-tag{
+.container-field{
+    border-bottom: 2px solid var(--main-red);
+}
+
+.signup-tag{
     font-weight:500;
     font-size: 30px;
 }
@@ -255,15 +257,20 @@ aside .lista-menu li:hover::before{
     font-size: 60px;
     margin-top: 50px;
 }
-
+.text3{
+    margin-top: 10px;
+    display:block;
+}
 .text1{
     font-style: italic;
-    margin-top: 10%;
-    display:inline-block;
+    margin-top: 30px;
+    display:block;
 }
 
 .text2{
-    font-weight:500;
+    font-weight:400;
+    margin-top: -20px;
+    display:block;
 }
 .btn1{
     background-color: rgb(13, 13, 68);
