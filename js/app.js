@@ -2,7 +2,7 @@
     document.getElementById('buttomuwu').addEventListener("click", function(event){
         event.preventDefault()
       });
-   
+   a
    document.querySelectorAll('#menu .lista-menu li a').forEach((element) => {
         element.addEventListener('click', () => {
             document.querySelector('#menu .active').classList.remove('active')
