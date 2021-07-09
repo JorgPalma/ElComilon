@@ -66,7 +66,7 @@
             contraseña2 = contraseña1.value
             
             
-            alert("Registro exitoso"+usuario2+contraseña2)
+            alert("Registro exitoso")
         }
             else{
                 alert("Complete todos los campos")
