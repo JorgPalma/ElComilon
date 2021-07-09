@@ -52,6 +52,7 @@
         {
             
             alert("datos validados")
+            location.href = "index.html";
         } 
             else{ 
                     alert("Porfavor ingrese, nombre de usuario y contraseña correctos."); 
@@ -65,8 +66,9 @@
             usuario2 = usuario1.value
             contraseña2 = contraseña1.value
             
-            
             alert("Registro exitoso")
+            document.getElementById('form2').style.display="none"
+            document.getElementById('form1').style.display="block"
         }
             else{
                 alert("Complete todos los campos")
