@@ -217,12 +217,24 @@ aside .lista-menu li:hover::before{
 
 }
 
+.campo-tag1{
+    text-align:left;
+    padding-left: 10px;
+    padding-top: 15px;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
 .form-container {
     border-radius: 30px;
     background: var(--light);
     text-align: center;
 }
 
+.form-container3 {
+    text-align: center;
+}
 .body-login {
     background-color: black;
 }
@@ -236,6 +248,20 @@ aside .lista-menu li:hover::before{
 
 }
 
+
+
+.op-container-signup-form1 input[type="text"]{
+    background: transparent;
+    outline: none;
+    font-size: 20px;
+    border-radius: 3px;
+    border-width: 0.01rem;
+    height: 44px;
+    width: 96%;
+    padding-left: 7px;
+    border:rgb(179, 177, 177) solid 1px;
+}
+
 .container-field{
     border-bottom: 2px solid var(--main-red);
     display:inline-block;
@@ -243,11 +269,20 @@ aside .lista-menu li:hover::before{
 
 }
 
+.container-field1{
+    display:inline-block;
+}
+
 .signup-tag{
     font-weight:500;
     font-size: 30px;
 }
 
+.signup-tag1{
+    font-weight:500;
+    font-size: 25px;
+    padding-top: 30px;
+}
 .op-logo-login{
     color: var(--main-red);
     font-family: 'Great Vibes', cursive;
@@ -275,10 +310,11 @@ aside .lista-menu li:hover::before{
     background-color: rgb(13, 13, 68);
     border-radius: 50px;
     margin: 6%;
-    width:auto;
+    width:200px;
     color: var(--light);
     border: none;
     text-decoration: none;
+    text-align: center;
 }
 
 .body-login{
