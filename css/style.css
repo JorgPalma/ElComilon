@@ -262,6 +262,9 @@ aside .lista-menu li:hover::before{
     border:rgb(179, 177, 177) solid 1px;
 }
 
+.op-container-signup-form1{
+    text-align: center;
+}
 .container-field{
     border-bottom: 2px solid var(--main-red);
     display:inline-block;
@@ -282,6 +285,8 @@ aside .lista-menu li:hover::before{
     font-weight:500;
     font-size: 25px;
     padding-top: 30px;
+    text-align: left;
+    margin-left: 4px;
 }
 .op-logo-login{
     color: var(--main-red);
